@@ -1,1 +1,260 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: auto;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 1688px;
+  margin: auto;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+header {
+  background-image: url(../img/hdbg.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+header .navlist {
+  margin-top: 21px;
+}
+
+header .navlist a {
+  margin-left: 46px;
+}
+
+header a {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  letter-spacing: 0.24px;
+  text-decoration: none;
+}
+
+header .btnlog {
+  color: #5584ff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  letter-spacing: 0.24px;
+  text-decoration: none;
+  border-radius: 24px;
+  border: 1px solid rgba(85, 132, 255, 0.3);
+  padding: 14px 42px;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 67px;
+  padding-bottom: 165px;
+}
+
+header .hero h1 {
+  line-height: 0;
+}
+
+header .hero h1 span {
+  color: #8492af;
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 131px;
+}
+
+header .hero .btngs {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  font-style: normal;
+  letter-spacing: 0.24px;
+  line-height: normal;
+  border-radius: 24px;
+  border: 1px solid #5584ff;
+  background-color: #5584ff;
+  padding: 12px 53px;
+  margin-left: 739px;
+}
+
+header .hero .hbg {
+  margin-top: 52px;
+  padding-bottom: 593px;
+}
+
+header ::before {
+  position: absolute;
+  background-image: url(../img/herobefore.png);
+  background-repeat: no-repeat;
+  content: "";
+  top: 607px;
+  left: 490px;
+  width: 1024px;
+  height: 692px;
+}
+
+.featlist {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px 154px;
+  margin-top: 262px;
+}
+
+.featlistitem {
+  width: 380px;
+  padding-top: 133px;
+}
+
+.featlistitem h3 {
+  color: #0e1a35;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.featlistitem p {
+  color: #8492af;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 0.36px;
+  line-height: 30px;
+  margin-top: 19px;
+  margin-bottom: 61px;
+}
+
+.featlistitem a {
+  text-decoration: none;
+}
+
+.btnfeat {
+  color: #0e1a35;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 0.24px;
+  line-height: normal;
+  border-radius: 24px;
+  border: 1px solid rgba(132, 146, 175, 0.3);
+  padding: 13px 86px;
+  margin-left: 64px;
+}
+
+#icon1 {
+  background-image: url(../img/icon1.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+#icon2 {
+  background-image: url(../img/icon2.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+#icon3 {
+  background-image: url(../img/icon3.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.browser {
+  background-color: #f6f7fa;
+}
+
+.browser h3 {
+  color: #0e1a35;
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.browser p {
+  color: #8492af;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.bicon {
+  background-image: url(../img/check.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.bicon p {
+  color: #5584ff;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 30px;
+  text-align: left;
+}
+/*# sourceMappingURL=main.css.map */
