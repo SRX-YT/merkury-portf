@@ -137,6 +137,7 @@ header ::before {
           justify-content: space-between;
   margin: 0px 154px;
   margin-top: 262px;
+  margin-bottom: 195px;
 }
 
 .featlistitem {
@@ -213,6 +214,20 @@ header ::before {
 
 .browser {
   background-color: #f6f7fa;
+  padding-top: 97px;
+  padding-left: 195px;
+  padding-bottom: 276px;
+}
+
+.browser ::before {
+  background-image: url(../img/browserbefore.png);
+  background-repeat: no-repeat;
+  width: 1306px;
+  height: 667px;
+  position: absolute;
+  content: "";
+  top: 1950px;
+  left: 884px;
 }
 
 .browser h3 {
@@ -226,6 +241,8 @@ header ::before {
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .browser p {
@@ -238,13 +255,16 @@ header ::before {
   text-align: left;
   font-style: normal;
   letter-spacing: normal;
-  line-height: normal;
+  line-height: 30px;
+  padding-top: 28px;
 }
 
 .bicon {
   background-image: url(../img/check.png);
   background-repeat: no-repeat;
   background-position: left center;
+  margin-top: 55px;
+  margin-left: 2px;
 }
 
 .bicon p {
@@ -256,5 +276,11 @@ header ::before {
   letter-spacing: normal;
   line-height: 30px;
   text-align: left;
+  padding: 0;
+  margin-left: 45px;
+}
+
+#bb2 {
+  margin-top: 31px;
 }
 /*# sourceMappingURL=main.css.map */
