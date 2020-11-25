@@ -126,6 +126,7 @@ header ::before {
   left: 490px;
   width: 1024px;
   height: 692px;
+  cursor: default;
 }
 
 .featlist {
@@ -228,6 +229,7 @@ header ::before {
   content: "";
   top: 1950px;
   left: 884px;
+  cursor: default;
 }
 
 .browser h3 {
@@ -282,5 +284,304 @@ header ::before {
 
 #bb2 {
   margin-top: 31px;
+}
+
+.drag {
+  background-image: url(../img/dragbg.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  padding-left: 1083px;
+  padding-top: 209px;
+  padding-bottom: 194px;
+}
+
+.drag h3 {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  margin-bottom: 38px;
+}
+
+.drag p {
+  color: #8492af;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 30px;
+  margin-left: 5px;
+}
+
+.drag ::before {
+  background-image: url(../img/dragbefore.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  content: "";
+  top: 2861px;
+  left: 37px;
+  width: 972px;
+  height: 582px;
+  cursor: default;
+}
+
+.dragarr {
+  margin-top: 49px;
+  margin-left: 9px;
+}
+
+.dragarr a {
+  margin-right: 15px;
+}
+
+.price {
+  background-color: #f6f7fa;
+}
+
+.price h3 {
+  color: #0e1a35;
+  font-family: Roboto;
+  font-size: 60px;
+  font-weight: 100;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 14.4px;
+  text-align: center;
+  padding-top: 119px;
+}
+
+.price p {
+  color: #8492af;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 30px;
+  text-align: center;
+}
+
+.psdtemplate ::before {
+  background-image: url(../img/psdbefore.png);
+  background-repeat: no-repeat;
+  content: "";
+  width: 1390px;
+  height: 681px;
+  position: absolute;
+  top: 3794px;
+  left: 237px;
+}
+
+.pricelist h3 {
+  margin-top: 789px;
+}
+
+.priceitem {
+  width: 360px;
+  background-color: #ffffff;
+  padding-bottom: 30px;
+  -webkit-box-shadow: 0px 0px 71px -23px rgba(0, 0, 0, 0.65);
+  box-shadow: 0px 0px 71px -23px rgba(0, 0, 0, 0.65);
+}
+
+.priceitem h4 {
+  color: #0e1a35;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.48px;
+  padding-top: 43px;
+}
+
+.pricelistitem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0px 164px;
+  margin-top: 117px;
+}
+
+.pricechecklist {
+  margin-left: 50px;
+  margin-bottom: 12px;
+}
+
+.pricechecklist p {
+  color: #8492af;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.36px;
+  text-align: left;
+  margin-top: 0;
+  line-height: 28px;
+  padding-left: 37px;
+}
+
+.pricesymbol {
+  color: #0e1a35;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0.44px;
+  line-height: normal;
+  right: -5px;
+  position: relative;
+  top: -3px;
+}
+
+.pricemon {
+  color: #8492af;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 0.48px;
+  line-height: normal;
+}
+
+.pricenum {
+  color: #0e1a35;
+  font-family: Roboto;
+  font-size: 72px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 1.44px;
+  line-height: normal;
+}
+
+.nomargin {
+  margin-top: 35px;
+  margin-left: 9px;
+  margin-bottom: 38px;
+}
+
+#checked {
+  background-image: url(../img/check.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 24px 24px;
+}
+
+#notchecked {
+  background-image: url(../img/notchecked.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 24px 24px;
+}
+
+#margin {
+  margin-top: 69px;
+}
+
+.btnjn {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-style: normal;
+  letter-spacing: 0.24px;
+  line-height: normal;
+  text-decoration: none;
+  border-radius: 24px;
+  background-color: #5584ff;
+  margin-left: 743px;
+  padding: 14px 61px;
+}
+
+.join {
+  margin-top: 103px;
+  padding-bottom: 115px;
+}
+
+.join p {
+  margin-bottom: 76px;
+}
+
+footer {
+  background-color: #0e1a35;
+  padding: 64px 0;
+}
+
+.fline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 3px;
+}
+
+.fline p {
+  color: #8492af;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.fline a {
+  color: #8492af;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-style: normal;
+  letter-spacing: 0.36px;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.fcop {
+  margin-left: 110px;
+}
+
+.fnav {
+  margin-left: 798px;
+}
+
+.fnav a {
+  margin-right: 36px;
+}
+
+.social {
+  margin-right: 110px;
+}
+
+.social a {
+  margin-left: 14px;
 }
 /*# sourceMappingURL=main.css.map */
